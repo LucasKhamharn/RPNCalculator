@@ -76,8 +76,8 @@ double Calculate(std::queue<Operand*> q)
 int main()
 {
     std::queue<Operand*> a;
-    a.push(new Number (1));
-    a.push(new Number (2));
+    a.push(new Number (11));
+    a.push(new Number (9));
     a.push(new Square());
     a.push(new Multiply());
     std::cout << Calculate(a) << std::endl;
